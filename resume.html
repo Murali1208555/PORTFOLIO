@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        width: 100%;
+        height: 40%;
+        background-image: url(asset/img/15ace932ba3b640c6103ee8805d9203e.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+ 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    margin: 20px;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    margin-left: 700px;
+    padding: 40px;   
+}
+ul li:hover a{
+    color: rgb(230, 104, 59);
+}
+.logo{
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 50%;
+}
+h1{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+button{
+    border: 2px solid black;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgb(6, 6, 6);
+    color: rgb(250, 250, 250);
+}
+h2 span{
+    color:rgb(209, 73, 24);
+}
+h2, h1, h3{
+    color: wheat;
+}
+h2{
+    weight:100%;
+    position: relative;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    color: #2a6677;
+    text-align: center;
+    -webkit-box-reflect:below 1px linear-gradient(transparant,rgba(28, 28, 28, 0.533));
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 3.5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18%,20%,30%,50%,60%,70%,80%,90%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px,
+        0 0 20px #99b1b9,
+        0 0 40px #a6c7d2,
+        0 0 80px #a7ceda,
+        0 0 0px #aed5e1;
+    }
+}
+h1 span{
+    color:rgb(209, 73, 24);
+}
+.home{
+    display: flex;
+    margin-top: 10px;
+}
+.con{
+    margin-top: 10%;
+    margin-left: 100PX;
+    text-align: center;
+}
+.my{ 
+    margin-bottom: 30px;
+    margin-left: 20%;
+    position: absolute;
+    height: 70%;
+    left: 40%;
+    bottom: 0;
+    transition: left 2.5s ease;
+    border: transparent 3px solid ;
+    border-radius: 50%;
+}
+.my:hover{
+    left: 45%;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 0PX;
+}
+h3{
+    margin-top: 20px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="logo"> <img src="asset/img/logo.webp"width="120"></a>
+
+            <ul>
+                <li><a href="resume.html">Home</a></li>
+                <li><a href="about.html">About  </a></li>
+                <li><a href="skills.html">Skills & Educations</a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
+
+        </nav>
+    </div><br><br>
+    <div class="home">
+        <div class="con">
+        <h2>Hi, I'm <span>Muralidharan</span>.</h2>
+        <h1><span>W</span>EB <span>D</span>EVELOPER</h1>
+       
+        <h3><i><b>As a web developer, my objective is to create user friendly and <br>
+            efficient websites that are visually appealing and easy navigate. I utilize my skills<br>
+            in HTML and CSS to develop websites that meet all the requrements of client.</i></b></h3>
+            
+            <button><b>Hire Me</b></button><br>
+        </div>
+            <img src="asset/img/WhatsApp Image 2024-04-10 at 11.59.22 AM.jpeg" class="my" width="450"height="500">
+    </div><br><br>
+</body>
+</html>
